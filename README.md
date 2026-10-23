@@ -1,16 +1,51 @@
-# React + Vite
+# Full Stack Development Learning Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my learning progress while studying full-stack development using Python, Django, React, JavaScript, and real-world projects.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Python
+- Django
+- React
+- JavaScript
+- HTML and CSS
+- REST APIs
+- Git and GitHub
 
-## React Compiler
+## Learning Roadmap
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Python
+- [x] Variables and Data Types
+- [x] Loops
+- [ ] OOP
+- [ ] Decorators
 
-## Expanding the ESLint configuration
+### Django
+- [ ] Models
+- [ ] Views
+- [ ] REST Framework
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### React
+- [ ] Components
+- [ ] Hooks
+- [ ] Context API
+- [ ] Redux
+
+## Projects
+
+| Project | Tech Stack | Status |
+|----------|------------|---------|
+| Todo App | React | Completed |
+| Blog API | Django REST | In Progress |
+| E-Commerce | React + Django | Planned |
+
+## React + Vite App
+
+The React application in this repository uses Vite for local development and builds. To run it:
+
+```sh
+npm install
+npm run dev
+```
+
+The Vite template uses `@vitejs/plugin-react` and ESLint. See `package.json` for the available scripts and dependencies.
